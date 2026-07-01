@@ -19,7 +19,9 @@
           { "q": "Which planet is known as the Red Planet?", "opts": ["Venus", "Mars", "Jupiter", "Saturn"], "ans": 1 },
           { "q": "The Amazon River is in which continent?", "opts": ["Africa", "Asia", "South America", "North America"], "ans": 2 },
           { "q": "Smallest country in the world by area?", "opts": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"], "ans": 2 },
-          { "q": "The Olympic Games originated in which civilization?", "opts": ["Roman", "Egyptian", "Greek", "Persian"], "ans": 2 }
+          { "q": "The Olympic Games originated in which civilization?", "opts": ["Roman", "Egyptian", "Greek", "Persian"], "ans": 2 },
+          { "q": "The Olympic Games originated in which civilization?", "opts": ["Roman", "Egyptian", "Greek", "Persian"], "ans": 2 },
+          { "q": "Which is the largest planet in our solar system?", "opts": ["Saturn", "Jupiter", "Neptune", "Uranus"], "ans": 1 }
         ]
       },
       {
