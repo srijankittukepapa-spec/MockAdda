@@ -20,7 +20,6 @@
           { "q": "The Amazon River is in which continent?", "opts": ["Africa", "Asia", "South America", "North America"], "ans": 2 },
           { "q": "Smallest country in the world by area?", "opts": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"], "ans": 2 },
           { "q": "The Olympic Games originated in which civilization?", "opts": ["Roman", "Egyptian", "Greek", "Persian"], "ans": 2 },
-          { "q": "The Olympic Games originated in which civilization?", "opts": ["Roman", "Egyptian", "Greek", "Persian"], "ans": 2 },
           { "q": "Which is the largest planet in our solar system?", "opts": ["Saturn", "Jupiter", "Neptune", "Uranus"], "ans": 1 },  
           { "q": "Which country is the largest by area in the world?", "opts": ["USA", "China", "Russia", "Canada"], "ans": 2 },
           { "q": "What is the capital of Australia?", "opts": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "ans": 2 },
