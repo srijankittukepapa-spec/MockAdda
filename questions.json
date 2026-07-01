@@ -21,8 +21,18 @@
           { "q": "Smallest country in the world by area?", "opts": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"], "ans": 2 },
           { "q": "The Olympic Games originated in which civilization?", "opts": ["Roman", "Egyptian", "Greek", "Persian"], "ans": 2 },
           { "q": "The Olympic Games originated in which civilization?", "opts": ["Roman", "Egyptian", "Greek", "Persian"], "ans": 2 },
-          { "q": "Which is the largest planet in our solar system?", "opts": ["Saturn", "Jupiter", "Neptune", "Uranus"], "ans": 1 }
-        ]
+          { "q": "Which is the largest planet in our solar system?", "opts": ["Saturn", "Jupiter", "Neptune", "Uranus"], "ans": 1 },  
+          { "q": "Which country is the largest by area in the world?", "opts": ["USA", "China", "Russia", "Canada"], "ans": 2 },
+          { "q": "What is the capital of Australia?", "opts": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "ans": 2 },
+          { "q": "Which is the longest river in the world?", "opts": ["Amazon", "Nile", "Yangtze", "Mississippi"], "ans": 1 },
+          { "q": "Mount Everest is located in which mountain range?", "opts": ["Alps", "Andes", "Rockies", "Himalayas"], "ans": 3 },
+          { "q": "Which ocean is the smallest in the world?", "opts": ["Indian", "Atlantic", "Arctic", "Southern"], "ans": 2 },
+          { "q": "How many continents are there on Earth?", "opts": ["5", "6", "7", "8"], "ans": 2 },
+          { "q": "Which country gifted the Statue of Liberty to the USA?", "opts": ["UK", "France", "Germany", "Italy"], "ans": 1 },
+          { "q": "What is the currency of the United Kingdom?", "opts": ["Euro", "Dollar", "Pound", "Franc"], "ans": 2 },
+          { "q": "Which planet is closest to the Sun?", "opts": ["Venus", "Earth", "Mars", "Mercury"], "ans": 3 },
+          { "q": "The Great Barrier Reef is located in which country?", "opts": ["USA", "Brazil", "Australia", "South Africa"], "ans": 2 }
+            ]
       },
       {
         "id": "gk2",
