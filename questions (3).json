@@ -1,0 +1,337 @@
+{
+  "ssc": {
+    "name": "SSC Exams",
+    "icon": "🏛️",
+    "color": "#3b82f6",
+    "exams": {
+      "ssc_cgl": {
+        "name": "SSC CGL",
+        "fullname": "Staff Selection Commission Combined Graduate Level",
+        "tests": [
+          {
+            "id": "ssc_cgl_1",
+            "title": "SSC CGL Mock Test 1",
+            "duration": 15,
+            "difficulty": "Medium",
+            "questions": [
+              { "q": "What is the full form of CGL?", "opts": ["Combined Graduate Level", "Central Graduate Level", "Combined General Level", "Central General Level"], "ans": 0 },
+              { "q": "Who appoints the Chief Justice of India?", "opts": ["Prime Minister", "President", "Parliament", "Supreme Court Judges"], "ans": 1 },
+              { "q": "What is the SI unit of pressure?", "opts": ["Newton", "Pascal", "Joule", "Watt"], "ans": 1 },
+              { "q": "Which article of Indian Constitution deals with Right to Equality?", "opts": ["Article 12", "Article 14", "Article 19", "Article 21"], "ans": 1 },
+              { "q": "If a train travels 360 km in 4 hours, what is its speed?", "opts": ["80 km/h", "90 km/h", "100 km/h", "85 km/h"], "ans": 1 },
+              { "q": "The Quit India Movement was launched in which year?", "opts": ["1940", "1941", "1942", "1943"], "ans": 2 },
+              { "q": "LCM of 15 and 20 is?", "opts": ["40", "50", "60", "80"], "ans": 2 },
+              { "q": "Which gas is used in electric bulbs?", "opts": ["Oxygen", "Nitrogen", "Argon", "Hydrogen"], "ans": 2 },
+              { "q": "Synonym of 'Abundant'?", "opts": ["Scarce", "Plentiful", "Limited", "Rare"], "ans": 1 },
+              { "q": "Who wrote the book 'Discovery of India'?", "opts": ["Mahatma Gandhi", "B.R. Ambedkar", "Jawaharlal Nehru", "Subhas Chandra Bose"], "ans": 2 }
+            ]
+          },
+          {
+            "id": "ssc_cgl_2",
+            "title": "SSC CGL Mock Test 2",
+            "duration": 15,
+            "difficulty": "Hard",
+            "questions": [
+              { "q": "If 30% of a number is 90, what is the number?", "opts": ["270", "280", "300", "320"], "ans": 2 },
+              { "q": "The Preamble of the Indian Constitution was amended in which year?", "opts": ["1971", "1974", "1976", "1978"], "ans": 2 },
+              { "q": "Which planet has the most moons?", "opts": ["Jupiter", "Saturn", "Uranus", "Neptune"], "ans": 1 },
+              { "q": "Antonym of 'Verbose'?", "opts": ["Talkative", "Concise", "Elaborate", "Lengthy"], "ans": 1 },
+              { "q": "SEBI stands for?", "opts": ["Securities Exchange Board of India", "Stock Exchange Bureau of India", "Securities and Exchange Board of India", "State Exchange Board of India"], "ans": 2 },
+              { "q": "Speed of sound in air is approximately?", "opts": ["232 m/s", "332 m/s", "432 m/s", "532 m/s"], "ans": 1 },
+              { "q": "Who was the last Viceroy of India?", "opts": ["Lord Curzon", "Lord Mountbatten", "Lord Wavell", "Lord Linlithgow"], "ans": 1 },
+              { "q": "A shopkeeper sells a product for ₹840 at 20% profit. Cost price is?", "opts": ["₹680", "₹700", "₹720", "₹750"], "ans": 1 },
+              { "q": "Which of the following is a Fundamental Duty?", "opts": ["Right to Vote", "Right to Education", "To protect the environment", "Right to work"], "ans": 2 },
+              { "q": "The chemical name of Baking Soda is?", "opts": ["Sodium Chloride", "Sodium Carbonate", "Sodium Bicarbonate", "Sodium Hydroxide"], "ans": 2 }
+            ]
+          }
+        ]
+      },
+      "ssc_chsl": {
+        "name": "SSC CHSL",
+        "fullname": "Staff Selection Commission Combined Higher Secondary Level",
+        "tests": [
+          {
+            "id": "ssc_chsl_1",
+            "title": "SSC CHSL Mock Test 1",
+            "duration": 15,
+            "difficulty": "Easy",
+            "questions": [
+              { "q": "How many states are there in India?", "opts": ["26", "27", "28", "29"], "ans": 2 },
+              { "q": "What is 40% of 250?", "opts": ["80", "90", "100", "110"], "ans": 2 },
+              { "q": "Which is the smallest bone in human body?", "opts": ["Femur", "Stapes", "Tibia", "Radius"], "ans": 1 },
+              { "q": "One word for 'A person who cannot be corrected'?", "opts": ["Insolvent", "Incorrigible", "Ineligible", "Incompetent"], "ans": 1 },
+              { "q": "RBI was established in?", "opts": ["1930", "1932", "1935", "1947"], "ans": 2 },
+              { "q": "Hydrogen bomb is based on?", "opts": ["Nuclear Fission", "Nuclear Fusion", "Chemical Reaction", "Radioactive Decay"], "ans": 1 },
+              { "q": "First General Elections in India were held in?", "opts": ["1947", "1950", "1952", "1955"], "ans": 2 },
+              { "q": "Average of 10, 20, 30, 40, 50 is?", "opts": ["25", "30", "35", "40"], "ans": 1 },
+              { "q": "Passive voice: 'Ram writes a letter'?", "opts": ["A letter is written by Ram", "A letter was written by Ram", "A letter has been written by Ram", "A letter will be written by Ram"], "ans": 0 },
+              { "q": "Which country is called the 'Land of Rising Sun'?", "opts": ["China", "South Korea", "Japan", "Thailand"], "ans": 2 }
+            ]
+          }
+        ]
+      },
+      "ssc_mts": {
+        "name": "SSC MTS",
+        "fullname": "Staff Selection Commission Multi Tasking Staff",
+        "tests": [
+          {
+            "id": "ssc_mts_1",
+            "title": "SSC MTS Mock Test 1",
+            "duration": 10,
+            "difficulty": "Easy",
+            "questions": [
+              { "q": "National bird of India?", "opts": ["Sparrow", "Peacock", "Parrot", "Pigeon"], "ans": 1 },
+              { "q": "2 + 2 × 2 = ?", "opts": ["8", "6", "4", "10"], "ans": 1 },
+              { "q": "Which is the capital of Rajasthan?", "opts": ["Jodhpur", "Udaipur", "Jaipur", "Ajmer"], "ans": 2 },
+              { "q": "Full form of ATM?", "opts": ["Automatic Teller Machine", "Automated Teller Machine", "Auto Transaction Machine", "Automated Transaction Machine"], "ans": 1 },
+              { "q": "Who invented the telephone?", "opts": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Isaac Newton"], "ans": 1 },
+              { "q": "How many days in a leap year?", "opts": ["364", "365", "366", "367"], "ans": 2 },
+              { "q": "Capital of France?", "opts": ["Berlin", "Rome", "Paris", "Madrid"], "ans": 2 },
+              { "q": "National flower of India?", "opts": ["Rose", "Lotus", "Marigold", "Jasmine"], "ans": 1 },
+              { "q": "1 dozen = ?", "opts": ["10", "11", "12", "13"], "ans": 2 },
+              { "q": "Largest continent in the world?", "opts": ["Africa", "Europe", "Asia", "Australia"], "ans": 2 }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "banking": {
+    "name": "Banking Exams",
+    "icon": "🏦",
+    "color": "#8b5cf6",
+    "exams": {
+      "sbi_po": {
+        "name": "SBI PO",
+        "fullname": "State Bank of India Probationary Officer",
+        "tests": [
+          {
+            "id": "sbi_po_1",
+            "title": "SBI PO Mock Test 1",
+            "duration": 20,
+            "difficulty": "Hard",
+            "questions": [
+              { "q": "SBI was established in?", "opts": ["1950", "1953", "1955", "1960"], "ans": 2 },
+              { "q": "Repo Rate is set by?", "opts": ["SBI", "SEBI", "RBI", "Finance Ministry"], "ans": 2 },
+              { "q": "If x + y = 10 and xy = 21, find x² + y²?", "opts": ["52", "56", "58", "60"], "ans": 2 },
+              { "q": "SWIFT stands for?", "opts": ["Society for Worldwide Interbank Financial Telecommunication", "System for World Interbank Finance Transfer", "Society for World Internet Finance Transfer", "None of these"], "ans": 0 },
+              { "q": "What is the full form of NEFT?", "opts": ["National Electronic Fund Transfer", "National Efficient Fund Transfer", "National Electronic Finance Transaction", "None"], "ans": 0 },
+              { "q": "Basel III norms are related to?", "opts": ["Insurance", "Banking", "Stock Market", "Mutual Funds"], "ans": 1 },
+              { "q": "A sum doubles in 8 years at SI. Rate of interest is?", "opts": ["10%", "11%", "12.5%", "15%"], "ans": 2 },
+              { "q": "The headquarters of World Bank is in?", "opts": ["New York", "London", "Washington D.C.", "Geneva"], "ans": 2 },
+              { "q": "Choose the correct sentence:", "opts": ["She has went to market", "She has gone to market", "She have gone to market", "She gone to market"], "ans": 1 },
+              { "q": "Current Account Deficit means?", "opts": ["Exports > Imports", "Imports > Exports", "FDI > FII", "Revenue > Expenditure"], "ans": 1 }
+            ]
+          }
+        ]
+      },
+      "ibps_po": {
+        "name": "IBPS PO",
+        "fullname": "Institute of Banking Personnel Selection Probationary Officer",
+        "tests": [
+          {
+            "id": "ibps_po_1",
+            "title": "IBPS PO Mock Test 1",
+            "duration": 20,
+            "difficulty": "Hard",
+            "questions": [
+              { "q": "IBPS stands for?", "opts": ["Institute of Banking Personnel Selection", "Indian Banking Personnel System", "Institute of Bank Personnel System", "Indian Bureau of Personnel Selection"], "ans": 0 },
+              { "q": "CRR full form?", "opts": ["Credit Reserve Ratio", "Cash Reserve Ratio", "Central Reserve Ratio", "Capital Reserve Ratio"], "ans": 1 },
+              { "q": "If 15 men can do a work in 12 days, how many men needed to finish in 9 days?", "opts": ["18", "20", "22", "24"], "ans": 1 },
+              { "q": "Which bank introduced the first ATM in India?", "opts": ["SBI", "PNB", "HSBC", "Citibank"], "ans": 3 },
+              { "q": "A train 200m long passes a pole in 10 seconds. Speed in km/h?", "opts": ["60", "68", "72", "80"], "ans": 2 },
+              { "q": "Priority Sector Lending target for banks is?", "opts": ["30%", "35%", "40%", "45%"], "ans": 2 },
+              { "q": "What is Bancassurance?", "opts": ["Bank offering loans", "Bank selling insurance products", "Bank providing investment advice", "Bank foreign exchange services"], "ans": 1 },
+              { "q": "RTGS is used for amounts above?", "opts": ["₹1 lakh", "₹2 lakh", "₹5 lakh", "₹10 lakh"], "ans": 1 },
+              { "q": "Fill in the blank: She is _____ honest girl.", "opts": ["a", "an", "the", "no article"], "ans": 1 },
+              { "q": "PLR stands for?", "opts": ["Prime Lending Rate", "Public Loan Rate", "Primary Lending Rate", "Premium Loan Rate"], "ans": 0 }
+            ]
+          }
+        ]
+      },
+      "sbi_clerk": {
+        "name": "SBI Clerk",
+        "fullname": "State Bank of India Junior Associates",
+        "tests": [
+          {
+            "id": "sbi_clerk_1",
+            "title": "SBI Clerk Mock Test 1",
+            "duration": 15,
+            "difficulty": "Medium",
+            "questions": [
+              { "q": "How many nationalized banks are there in India?", "opts": ["10", "12", "19", "21"], "ans": 1 },
+              { "q": "The tagline of SBI is?", "opts": ["The Name You Can Bank On", "With You All The Way", "Pure Banking Nothing Else", "Good People to Bank With"], "ans": 1 },
+              { "q": "Simple Interest on ₹5000 at 8% for 3 years?", "opts": ["₹1000", "₹1100", "₹1200", "₹1300"], "ans": 2 },
+              { "q": "Minimum balance for SBI savings account in metro cities?", "opts": ["₹500", "₹1000", "₹3000", "₹5000"], "ans": 2 },
+              { "q": "KYC stands for?", "opts": ["Keep Your Cash", "Know Your Customer", "Keep Your Customer", "Know Your Cash"], "ans": 1 },
+              { "q": "Which of the following is NOT a function of RBI?", "opts": ["Issue of currency", "Banker to government", "Accepting deposits from public", "Lender of last resort"], "ans": 2 },
+              { "q": "What is 35% of 500?", "opts": ["155", "165", "175", "185"], "ans": 2 },
+              { "q": "UPI was launched by?", "opts": ["SBI", "RBI", "NPCI", "SEBI"], "ans": 2 },
+              { "q": "Error detection: 'He do not know the answer.'", "opts": ["He", "do not", "know", "the answer"], "ans": 1 },
+              { "q": "Insurance deposits up to ₹__ are protected by DICGC?", "opts": ["1 lakh", "2 lakh", "5 lakh", "10 lakh"], "ans": 2 }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "railways": {
+    "name": "Railways Exams",
+    "icon": "🚂",
+    "color": "#f59e0b",
+    "exams": {
+      "rrb_ntpc": {
+        "name": "RRB NTPC",
+        "fullname": "Railway Recruitment Board Non-Technical Popular Categories",
+        "tests": [
+          {
+            "id": "rrb_ntpc_1",
+            "title": "RRB NTPC Mock Test 1",
+            "duration": 15,
+            "difficulty": "Medium",
+            "questions": [
+              { "q": "Indian Railways was nationalised in?", "opts": ["1947", "1950", "1951", "1953"], "ans": 3 },
+              { "q": "Headquarters of Railway Board is in?", "opts": ["Mumbai", "Kolkata", "New Delhi", "Chennai"], "ans": 2 },
+              { "q": "The busiest railway station in India?", "opts": ["Mumbai CST", "Howrah", "New Delhi", "Chennai Central"], "ans": 1 },
+              { "q": "Train A is 150m long and Train B is 100m long. They cross each other in 10 sec. Combined speed?", "opts": ["20 m/s", "25 m/s", "30 m/s", "35 m/s"], "ans": 1 },
+              { "q": "India's first Metro Rail was started in?", "opts": ["Delhi", "Mumbai", "Kolkata", "Chennai"], "ans": 2 },
+              { "q": "What does the yellow light on a railway signal indicate?", "opts": ["Stop", "Go slow / Caution", "Proceed", "Reverse"], "ans": 1 },
+              { "q": "Which is the longest railway platform in India?", "opts": ["Gorakhpur", "Kollam", "Kharagpur", "Patna"], "ans": 0 },
+              { "q": "UNESCO declared which Indian Railway a World Heritage Site?", "opts": ["Konkan Railway", "Darjeeling Himalayan Railway", "Kalka-Shimla Railway", "Nilgiri Mountain Railway"], "ans": 1 },
+              { "q": "Spot the error: 'The news are shocking.'", "opts": ["The", "news", "are", "shocking"], "ans": 2 },
+              { "q": "What is 3/8 as a percentage?", "opts": ["32.5%", "37.5%", "42.5%", "47.5%"], "ans": 1 }
+            ]
+          }
+        ]
+      },
+      "rrb_group_d": {
+        "name": "RRB Group D",
+        "fullname": "Railway Recruitment Board Group D",
+        "tests": [
+          {
+            "id": "rrb_gd_1",
+            "title": "RRB Group D Mock Test 1",
+            "duration": 10,
+            "difficulty": "Easy",
+            "questions": [
+              { "q": "What is the gauge most commonly used in Indian Railways?", "opts": ["Narrow Gauge", "Metre Gauge", "Broad Gauge", "Standard Gauge"], "ans": 2 },
+              { "q": "Who is known as the 'Father of Indian Railways'?", "opts": ["Lord Dalhousie", "Lord Curzon", "Lord Mountbatten", "Lord Ripon"], "ans": 0 },
+              { "q": "HCF of 36 and 48?", "opts": ["6", "9", "12", "18"], "ans": 2 },
+              { "q": "Water boils at?", "opts": ["90°C", "95°C", "100°C", "105°C"], "ans": 2 },
+              { "q": "How many zones does Indian Railways have?", "opts": ["14", "16", "18", "20"], "ans": 2 },
+              { "q": "Largest railway zone in India?", "opts": ["Northern Railway", "Western Railway", "Central Railway", "Southern Railway"], "ans": 0 },
+              { "q": "Choose correct spelling:", "opts": ["Accomodation", "Accommodation", "Acommodation", "Acomodation"], "ans": 1 },
+              { "q": "The first railway line in India ran between?", "opts": ["Mumbai to Pune", "Mumbai to Thane", "Kolkata to Delhi", "Delhi to Agra"], "ans": 1 },
+              { "q": "Value of π approximately?", "opts": ["3.14", "3.41", "3.12", "3.21"], "ans": 0 },
+              { "q": "Diesel locomotives in India are manufactured at?", "opts": ["Varanasi", "Chittranjan", "Kapurthala", "Yelahanka"], "ans": 0 }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "teaching": {
+    "name": "Teaching Exams",
+    "icon": "📚",
+    "color": "#34d399",
+    "exams": {
+      "ctet": {
+        "name": "CTET",
+        "fullname": "Central Teacher Eligibility Test",
+        "tests": [
+          {
+            "id": "ctet_1",
+            "title": "CTET Paper 1 Mock Test",
+            "duration": 15,
+            "difficulty": "Medium",
+            "questions": [
+              { "q": "CTET is conducted by?", "opts": ["NCERT", "CBSE", "UGC", "MHRD"], "ans": 1 },
+              { "q": "According to RTE Act 2009, free education is provided to children of age?", "opts": ["5-12", "6-14", "5-14", "6-18"], "ans": 1 },
+              { "q": "Who propounded the theory of Cognitive Development?", "opts": ["Vygotsky", "Piaget", "Freud", "Skinner"], "ans": 1 },
+              { "q": "Which article of Indian Constitution provides free and compulsory education?", "opts": ["Article 21", "Article 21A", "Article 45", "Article 46"], "ans": 1 },
+              { "q": "The concept of 'Zone of Proximal Development' was given by?", "opts": ["Piaget", "Bruner", "Vygotsky", "Bloom"], "ans": 2 },
+              { "q": "CCE stands for?", "opts": ["Continuous Comprehensive Evaluation", "Central Comprehensive Examination", "Continuous Comprehensive Examination", "Central Comprehensive Evaluation"], "ans": 0 },
+              { "q": "Which learning theory is associated with Pavlov?", "opts": ["Operant Conditioning", "Classical Conditioning", "Cognitive Learning", "Social Learning"], "ans": 1 },
+              { "q": "What is 15% of 600?", "opts": ["75", "80", "90", "100"], "ans": 2 },
+              { "q": "NCF stands for?", "opts": ["National Curriculum Framework", "National Curriculum Format", "National Core Framework", "None"], "ans": 0 },
+              { "q": "Bloom's Taxonomy highest level of cognitive domain?", "opts": ["Analysis", "Synthesis", "Evaluation", "Application"], "ans": 2 }
+            ]
+          }
+        ]
+      },
+      "kvs": {
+        "name": "KVS",
+        "fullname": "Kendriya Vidyalaya Sangathan Teacher",
+        "tests": [
+          {
+            "id": "kvs_1",
+            "title": "KVS PRT Mock Test 1",
+            "duration": 15,
+            "difficulty": "Medium",
+            "questions": [
+              { "q": "KVS stands for?", "opts": ["Kendriya Vidyalaya Sangathan", "Kendra Vidya Sangathan", "Kendriya Vikas Sangathan", "None"], "ans": 0 },
+              { "q": "The first KV school was established in?", "opts": ["1960", "1963", "1965", "1968"], "ans": 1 },
+              { "q": "Multiple Intelligence theory was given by?", "opts": ["Howard Gardner", "Piaget", "Vygotsky", "Thorndike"], "ans": 0 },
+              { "q": "A rectangle has length 12 cm and breadth 8 cm. Area is?", "opts": ["80 cm²", "90 cm²", "96 cm²", "100 cm²"], "ans": 2 },
+              { "q": "Who is called the Father of Modern Education?", "opts": ["Plato", "Aristotle", "John Dewey", "Rousseau"], "ans": 2 },
+              { "q": "Inclusive Education means?", "opts": ["Education only for disabled", "Education for all children including disabled", "Special schools for disabled", "Vocational training"], "ans": 1 },
+              { "q": "Choose the correctly spelled word:", "opts": ["Recieve", "Receive", "Receieve", "Receve"], "ans": 1 },
+              { "q": "Formative Assessment is done?", "opts": ["At end of term", "During learning process", "After final exam", "Before starting course"], "ans": 1 },
+              { "q": "ADHD stands for?", "opts": ["Attention Deficit Hyperactivity Disorder", "Attention Disorder Hyperactivity Deficit", "Active Deficit Hyperactivity Disorder", "None"], "ans": 0 },
+              { "q": "LCM of 8, 12, 16?", "opts": ["24", "36", "48", "96"], "ans": 2 }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "civil_services": {
+    "name": "Civil Services",
+    "icon": "⚖️",
+    "color": "#f43f5e",
+    "exams": {
+      "upsc_prelims": {
+        "name": "UPSC Prelims",
+        "fullname": "Union Public Service Commission Preliminary Examination",
+        "tests": [
+          {
+            "id": "upsc_pre_1",
+            "title": "UPSC Prelims GS Mock Test 1",
+            "duration": 20,
+            "difficulty": "Hard",
+            "questions": [
+              { "q": "Which Schedule of Indian Constitution deals with Anti-Defection Law?", "opts": ["8th Schedule", "9th Schedule", "10th Schedule", "11th Schedule"], "ans": 2 },
+              { "q": "The term 'Secular' was added to Preamble by which Amendment?", "opts": ["42nd", "44th", "46th", "52nd"], "ans": 0 },
+              { "q": "Which river is known as 'Sorrow of Bihar'?", "opts": ["Ganga", "Son", "Kosi", "Gandak"], "ans": 2 },
+              { "q": "The Chipko Movement was associated with?", "opts": ["Water conservation", "Forest conservation", "Soil conservation", "Wildlife conservation"], "ans": 1 },
+              { "q": "Which Article empowers President to impose National Emergency?", "opts": ["Article 352", "Article 356", "Article 360", "Article 365"], "ans": 0 },
+              { "q": "Kyoto Protocol is related to?", "opts": ["Nuclear weapons", "Climate change", "Trade", "Terrorism"], "ans": 1 },
+              { "q": "MGNREGS guarantees employment for how many days?", "opts": ["75", "90", "100", "120"], "ans": 2 },
+              { "q": "The concept of Directive Principles was borrowed from?", "opts": ["USA", "UK", "Ireland", "Canada"], "ans": 2 },
+              { "q": "Which is the largest saltwater lake in India?", "opts": ["Dal Lake", "Chilika Lake", "Sambhar Lake", "Wular Lake"], "ans": 1 },
+              { "q": "The Fundamental Duties were added by which Amendment?", "opts": ["40th", "42nd", "44th", "46th"], "ans": 1 }
+            ]
+          },
+          {
+            "id": "upsc_pre_2",
+            "title": "UPSC Prelims GS Mock Test 2",
+            "duration": 20,
+            "difficulty": "Hard",
+            "questions": [
+              { "q": "Which Five Year Plan focused on 'Garibi Hatao'?", "opts": ["4th", "5th", "6th", "7th"], "ans": 1 },
+              { "q": "Photochemical smog is caused mainly by?", "opts": ["SO₂", "CO₂", "NO₂ and hydrocarbons", "Particulate matter"], "ans": 2 },
+              { "q": "The Indus Valley Civilisation is also called?", "opts": ["Vedic Civilisation", "Harappan Civilisation", "Dravidian Civilisation", "Aryan Civilisation"], "ans": 1 },
+              { "q": "Which Article deals with the Right to Constitutional Remedies?", "opts": ["Article 30", "Article 32", "Article 35", "Article 38"], "ans": 1 },
+              { "q": "National Human Rights Commission was established in?", "opts": ["1991", "1993", "1995", "1997"], "ans": 1 },
+              { "q": "Which of the following is NOT a Greenhouse Gas?", "opts": ["CO₂", "CH₄", "N₂O", "N₂"], "ans": 3 },
+              { "q": "Pradhan Mantri Jan Dhan Yojana was launched in?", "opts": ["2013", "2014", "2015", "2016"], "ans": 1 },
+              { "q": "The Tropic of Cancer passes through how many Indian states?", "opts": ["6", "7", "8", "9"], "ans": 2 },
+              { "q": "Which body recommends MSP for crops?", "opts": ["NITI Aayog", "CACP", "FCI", "NAFED"], "ans": 1 },
+              { "q": "The term 'Oligopoly' refers to?", "opts": ["Single seller market", "Few sellers market", "Many sellers market", "No sellers market"], "ans": 1 }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

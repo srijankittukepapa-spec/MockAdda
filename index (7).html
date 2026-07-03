@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>MockAdda – Free Online Mock Tests | SSC, Banking, Railways, Teaching</title>
+<meta name="description" content="Practice free mock tests on MockAdda for SSC, Banking, Railways, Teaching and Civil Services exams. Best CBT simulator for competitive exam preparation."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f8fafc; --surface:#ffffff; --card:#ffffff;
+  --border:#e2e8f0; --borderHov:#cbd5e1;
+  --primary:#0ea5e9; --primaryDark:#0284c7; --primaryBg:#f0f9ff;
+  --green:#16a34a; --greenBg:#f0fdf4;
+  --red:#dc2626; --redBg:#fef2f2;
+  --amber:#d97706; --amberBg:#fffbeb;
+  --purple:#7c3aed; --purpleBg:#faf5ff;
+  --text:#0f172a; --muted:#64748b; --dim:#94a3b8;
+  --ff:'DM Sans',sans-serif; --ffh:'Syne',sans-serif;
+  --shadow:0 1px 3px rgba(0,0,0,0.08),0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md:0 4px 6px rgba(0,0,0,0.07),0 2px 4px rgba(0,0,0,0.05);
+  --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{background:var(--bg);color:var(--text);font-family:var(--ff);font-size:15px;}
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:4px;}
+button{font-family:var(--ff);cursor:pointer;}
+a{text-decoration:none;color:inherit;}
+#app{min-height:100vh;}
+@keyframes spin{to{transform:rotate(360deg);}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+@keyframes blink{0%,100%{opacity:.3;}50%{opacity:1;}}
+.fade-in{animation:fadeIn 0.3s ease;}
+
+/* QUIZ DARK THEME */
+.quiz-dark{
+  --bg:#070c18; --surface:#0d1426; --card:#121c33;
+  --border:rgba(255,255,255,0.07); --text:#f1f5f9; --muted:#94a3b8; --dim:#475569;
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="app.js"></script>
+</body>
+</html>
