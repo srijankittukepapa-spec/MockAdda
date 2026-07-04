@@ -9,7 +9,8 @@ let S = {
   test: null,
   qi: 0, ans: {}, flagged: new Set(), visited: new Set([0]),
   timeLeft: 0, timeTaken: 0, startTime: null,
-  navOpen: false, confirm: false, reviewOpen: false
+  navOpen: false, confirm: false, reviewOpen: false,
+  lang: 'en'   // 'en' or 'hi'
 };
 let timerHandle = null;
 const app = document.getElementById('app');
@@ -129,6 +130,19 @@ function Navbar() {
   logo.appendChild(logoIcon); logo.appendChild(logoText);
   nav.appendChild(logo);
   const right = el('div',{css:'display:flex;align-items:center;gap:10px;'});
+
+  // Language toggle
+  const langToggle = el('div',{css:'display:flex;align-items:center;background:#f1f5f9;border-radius:20px;padding:3px;gap:2px;border:1px solid #e2e8f0;'});
+  ['en','hi'].forEach(lang => {
+    const active = S.lang === lang;
+    const btn = el('button',{
+      css:`padding:4px 12px;border-radius:16px;border:none;font-size:12px;font-weight:700;cursor:pointer;transition:all 0.15s;background:${active?'#0ea5e9':'transparent'};color:${active?'#fff':'#64748b'};`,
+      text: lang === 'en' ? 'EN' : 'हिं',
+      onClick: () => { S.lang = lang; render(); }
+    });
+    langToggle.appendChild(btn);
+  });
+  right.appendChild(langToggle);
   right.appendChild(el('a',{href:'mailto:contact@mockadda.com',css:'font-size:12px;color:#64748b;font-weight:500;text-decoration:none;',text:'Contact'}));
   nav.appendChild(right);
   return nav;
@@ -329,6 +343,19 @@ function quizScreen() {
     el('div',{css:`font-family:Syne,sans-serif;font-weight:700;font-size:12px;color:${Q.text};margin-top:1px;`,text:test.title})
   ]));
   const rBar = el('div',{css:'display:flex;align-items:center;gap:8px;'});
+
+  // Language toggle inside quiz
+  const qzLang = el('div',{css:'display:flex;align-items:center;background:rgba(255,255,255,0.07);border-radius:16px;padding:2px;gap:2px;'});
+  ['en','hi'].forEach(lang => {
+    const active = S.lang === lang;
+    const lb = el('button',{
+      css:`padding:3px 9px;border-radius:12px;border:none;font-size:11px;font-weight:700;cursor:pointer;background:${active?accent:'transparent'};color:${active?'#fff':Q.muted};`,
+      text: lang === 'en' ? 'EN' : 'हिं',
+      onClick:()=>{ S.lang=lang; render(); }
+    });
+    qzLang.appendChild(lb);
+  });
+  rBar.appendChild(qzLang);
   rBar.appendChild(el('div',{id:'timerDisp',css:`background:${accent}22;color:${accent};border:1px solid ${accent}44;padding:5px 10px;border-radius:8px;font-family:Syne,sans-serif;font-weight:700;font-size:15px;`,text:'⏱ '+fmt(S.timeLeft)}));
   rBar.appendChild(el('button',{css:`background:${Q.card};border:1px solid ${Q.border};color:${Q.text};padding:5px 10px;border-radius:8px;font-size:12px;cursor:pointer;`,text:`📋 ${answered}/${qs.length}`, onClick:()=>{ S.navOpen=true; render(); }}));
   bar.appendChild(rBar);
@@ -346,14 +373,28 @@ function quizScreen() {
   const isFlagged = S.flagged.has(S.qi);
   qTop.appendChild(el('button',{css:`background:${isFlagged?Q.purple+'22':'transparent'};border:1px solid ${isFlagged?Q.purple:Q.border};color:${isFlagged?Q.purple:Q.muted};padding:4px 12px;border-radius:20px;font-size:11px;font-weight:600;cursor:pointer;`,text:isFlagged?'🚩 Flagged':'🏳 Flag', onClick:()=>{ isFlagged?S.flagged.delete(S.qi):S.flagged.add(S.qi); render(); }}));
   qArea.appendChild(qTop);
-  qArea.appendChild(el('div',{css:`background:${Q.card};border:1px solid ${Q.border};border-radius:12px;padding:16px 18px;margin-bottom:18px;font-size:15px;font-weight:500;line-height:1.65;color:${Q.text};`,text:q.q}));
+  // Bilingual question display
+  const qBox = el('div',{css:`background:${Q.card};border:1px solid ${Q.border};border-radius:12px;padding:16px 18px;margin-bottom:18px;`});
+  qBox.appendChild(el('div',{css:`font-size:15px;font-weight:500;line-height:1.65;color:${Q.text};`,text:q.q}));
+  if (S.lang === 'hi' && q.q_hi) {
+    qBox.appendChild(el('div',{css:`font-size:14px;font-weight:400;line-height:1.65;color:${Q.muted};margin-top:6px;border-top:1px solid ${Q.border};padding-top:6px;`,text:q.q_hi}));
+  }
+  qArea.appendChild(qBox);
 
+  const activeOpts = (S.lang === 'hi' && q.opts_hi) ? q.opts_hi.map((hi,i)=>hi) : q.opts;
   const opts = el('div',{css:'display:flex;flex-direction:column;gap:10px;padding-bottom:100px;'});
   q.opts.forEach((opt,i) => {
+    const displayOpt = (S.lang === 'hi' && q.opts_hi && q.opts_hi[i]) ? q.opts_hi[i] : opt;
     const isSel = sel===i;
     const btn = el('div',{css:`text-align:left;padding:13px 16px;border-radius:12px;border:2px solid ${isSel?accent:Q.border};background:${isSel?accent+'22':Q.card};color:${Q.text};font-size:14px;line-height:1.5;display:flex;align-items:center;gap:12px;cursor:pointer;transition:all 0.12s;`});
     btn.appendChild(el('span',{css:`width:28px;height:28px;border-radius:50%;flex-shrink:0;border:2px solid ${isSel?accent:Q.dim};background:${isSel?accent:'transparent'};color:${isSel?'#fff':Q.dim};display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;`,text:'ABCD'[i]}));
-    btn.appendChild(document.createTextNode(opt));
+    // Show Hindi option if selected, with English below
+    const optWrap = el('div',{css:'flex:1;'});
+    optWrap.appendChild(el('div',{text: S.lang==='hi' && q.opts_hi && q.opts_hi[i] ? q.opts_hi[i] : opt}));
+    if (S.lang==='hi' && q.opts_hi && q.opts_hi[i] && q.opts_hi[i] !== opt) {
+      optWrap.appendChild(el('div',{css:`font-size:11px;color:${isSel?accent+'cc':Q.dim};margin-top:2px;`,text:opt}));
+    }
+    btn.appendChild(optWrap);
     btn.addEventListener('click',()=>{ S.ans[S.qi]=i; render(); });
     opts.appendChild(btn);
   });
@@ -467,11 +508,18 @@ function resultsScreen() {
       const qt = el('div',{css:`font-size:12px;line-height:1.5;flex:1;color:${Q.text};`});
       qt.appendChild(el('span',{css:`color:${Q.muted};margin-right:6px;font-weight:600;`,text:`Q${i+1}.`}));
       qt.appendChild(document.createTextNode(q.q));
+      if (S.lang==='hi' && q.q_hi) qt.appendChild(el('div',{css:`font-size:11px;color:${Q.muted};margin-top:2px;`,text:q.q_hi}));
       row.appendChild(qt);
       row.appendChild(el('span',{css:`flex-shrink:0;color:${sk?Q.dim:ok?Q.green:Q.red};font-size:16px;`,text:sk?'–':ok?'✓':'✗'}));
       card.appendChild(row);
-      if (!sk&&!ok) card.appendChild(el('div',{css:`margin-top:6px;font-size:11px;color:${Q.green};`,text:`Correct: ${q.opts[q.ans]}`}));
-      if (sk) card.appendChild(el('div',{css:`margin-top:6px;font-size:11px;color:${Q.muted};`,text:`Answer: ${q.opts[q.ans]}`}));
+      if (!sk&&!ok) {
+        const correctText = S.lang==='hi' && q.opts_hi ? `सही उत्तर: ${q.opts_hi[q.ans]} (${q.opts[q.ans]})` : `Correct: ${q.opts[q.ans]}`;
+        card.appendChild(el('div',{css:`margin-top:6px;font-size:11px;color:${Q.green};`,text:correctText}));
+      }
+      if (sk) {
+        const ansText = S.lang==='hi' && q.opts_hi ? `उत्तर: ${q.opts_hi[q.ans]} (${q.opts[q.ans]})` : `Answer: ${q.opts[q.ans]}`;
+        card.appendChild(el('div',{css:`margin-top:6px;font-size:11px;color:${Q.muted};`,text:ansText}));
+      }
       rv.appendChild(card);
     });
     body.appendChild(rv);
